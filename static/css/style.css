@@ -8,3 +8,26 @@ body,
 html {
   height: 100%;
 }
+
+.legend-item {
+  display: flex;
+  align-items: center;
+}
+
+.legend-item i {
+  width: 20px;
+  height: 10px;
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.info.legend {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.legend-header {
+  font-size: medium;
+}
